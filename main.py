@@ -22,3 +22,5 @@ for i in range(inputstart, inputend):  # Iterating over numbers from a given int
     #           - the first number of the pair is the minimum in this pair
     if (i == firstnum) & (i != secnum) & (i == min(i, secnum)):
         print(firstnum, secnum)
+
+#####
